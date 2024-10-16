@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import Shahebaaz from './Shahebaaz' 
+import Shahebaaz from './Shahebaaz'; 
+import Shahezaad from './Shahezaad'; 
+
 
 function MenuTabs() {
   // State to track the active tab
@@ -52,8 +54,7 @@ function MenuTabs() {
         )}
         {activeTab === 'shahezad' && (
           <div>
-            <h2>Shahezad</h2>
-            <p>This is the content for Shahezad tab.</p>
+            <Shahezaad/>
           </div>
         )}
       </div>
